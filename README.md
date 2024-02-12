@@ -15,13 +15,13 @@ Installation:
 
 1. Clone this repository:
 
-2. Install streamlit using the command
+2. Install streamlit using the command:
 pip install streamlit
 
-3. Install mysql connector using the command
+3. Install mysql connector using the command:
 pip install mysql-connector-python
 
-4. Install pandas for display of tables using the command
+4. Install pandas for display of tables using the command:
 pip install pandas
 
 5. Create a new MySQL database and import the car_rental.sql file to create the necessary tables.
@@ -30,7 +30,7 @@ Running the application:
 
 1. Open Xampp, start MySQL and Tomcat server
 2. Open the terminal and navigate to the folder where the application is stored.
-3. Run the following command to start the streamlit server
+3. Run the following command to start the streamlit server:
 streamlit run Home.py
 4. The application will be displayed on the browser
 
