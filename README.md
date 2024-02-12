@@ -14,28 +14,30 @@ Databse: MariaDB
 Installation:
 
 1. Clone this repository:
-2. 
+   ```bash
+   https://github.com/bsaisoumith/Car-Rental-Management-System
 
-3. Install streamlit using the command:
+2. Install streamlit using the command:
    ```bash
    pip install streamlit
 
-4. Install mysql connector using the command:
+3. Install mysql connector using the command:
    ```bash
    pip install mysql-connector-python
 
-5. Install pandas for display of tables using the command:
+4. Install pandas for display of tables using the command:
    ```bash
    pip install pandas
 
-7. Create a new MySQL database and import the car_rental.sql file to create the necessary tables.
+5. Create a new MySQL database and import the car_rental.sql file to create the necessary tables.
 
 Running the application:
 
 1. Open Xampp, start MySQL and Tomcat server
 2. Open the terminal and navigate to the folder where the application is stored.
 3. Run the following command to start the streamlit server:
-streamlit run Home.py
+   ```bash
+   streamlit run Home.py
 4. The application will be displayed on the browser
 
 Features:
@@ -45,8 +47,8 @@ Features:
 4. Car Locations:  Allows the User/Management to view the Location of the Car.
 5. Car Category: Allows the User/Management to Know the car that comes under a specific Category like Sedan, SUV, etc. This allows us to set a fixed price for a specific category of cars.
 6. Car Details: Allows the management/User to know all the details of a specific Car.
-9. Discount: Allows the management/User to know all the details of the Coupon Name and code for giving the discount and also the expiry date. 
-10. Booking Details: Allows users to rent a car for a specified duration
+7. Discount: Allows the management/User to know all the details of the Coupon Name and code for giving the discount and also the expiry date. 
+8. Booking Details: Allows users to rent a car for a specified duration
 
 Results:
 On the front End you can perform CRED Operations on the databas
