@@ -14,17 +14,21 @@ Databse: MariaDB
 Installation:
 
 1. Clone this repository:
+2. 
 
-2. Install streamlit using the command:
-pip install streamlit
+3. Install streamlit using the command:
+   ```bash
+   pip install streamlit
 
-3. Install mysql connector using the command:
-pip install mysql-connector-python
+4. Install mysql connector using the command:
+   ```bash
+   pip install mysql-connector-python
 
-4. Install pandas for display of tables using the command:
-pip install pandas
+5. Install pandas for display of tables using the command:
+   ```bash
+   pip install pandas
 
-5. Create a new MySQL database and import the car_rental.sql file to create the necessary tables.
+7. Create a new MySQL database and import the car_rental.sql file to create the necessary tables.
 
 Running the application:
 
