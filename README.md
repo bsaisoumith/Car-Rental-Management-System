@@ -1,17 +1,17 @@
-Car Rental Management System
+## Car Rental Management System
 
 This is a car rental management system built using the MySQL. The system allows users to rent a car and return it when they are finished, 
 while also allowing the management to keep track of the available cars and also track the location of the rented cars. We have even provided a Front-End using Streamlit.
 
-Requirements:
+## Requirements:
 
-Xampp
-Python 3.x
-Frontend: Streamlit 
-Backend: MySQL
-Databse: MariaDB
+- Xampp
+- Python 3.x
+- Frontend: Streamlit 
+- Backend: MySQL
+- Databse: MariaDB
 
-Installation:
+## Installation:
 
 1. Clone this repository:
    ```bash
@@ -31,7 +31,7 @@ Installation:
 
 5. Create a new MySQL database and import the car_rental.sql file to create the necessary tables.
 
-Running the application:
+## Running the application:
 
 1. Open Xampp, start MySQL and Tomcat server
 2. Open the terminal and navigate to the folder where the application is stored.
@@ -40,7 +40,7 @@ Running the application:
    streamlit run Home.py
 4. The application will be displayed on the browser
 
-Features:
+## Features:
 1. Driver Info: Allows the management/user to know all the details of a car driver
 2. Driver Contacts: Allows the management/user to know all the Contact Details 
 3. Customer Info: Allows the Management to maintain all the details of the Customer.
@@ -50,7 +50,7 @@ Features:
 7. Discount: Allows the management/User to know all the details of the Coupon Name and code for giving the discount and also the expiry date. 
 8. Booking Details: Allows users to rent a car for a specified duration
 
-Results:
+## Results:
 On the front End you can perform CRED Operations on the databas
 
 
