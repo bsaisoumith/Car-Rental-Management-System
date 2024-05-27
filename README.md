@@ -51,6 +51,6 @@ while also allowing the management to keep track of the available cars and also 
 8. Booking Details: Allows users to rent a car for a specified duration
 
 ## Results:
-On the front End you can perform CRED Operations on the databas
+On the front End you can perform CRUD Operations on the database
 
 
